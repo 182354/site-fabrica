@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="pt-br" class>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>FabSoft</title>
+
+
+  <link href="http://www.upf.br/Assets/css/main.css" rel="stylesheet">
+  <link href="http://www.upf.br/Assets/css/custom.css" rel="stylesheet">
+  <link href="https://www.upf.br/StyleSite/CorSite.css/357?id=357" rel="stylesheet">
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top" class>
+
+<div class="menu-faculdade template1">
+  <nav class="nav-acessibilidade desktop">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <ul>
+            <li class="logo-new">
+              <a href="https://www.upf.br/">
+                <img class="brand" alt="Universidade de Passo Fundo" src="https://www.upf.br/Assets/img/logo-template.png">
+              </a>
+            </li>
+            <li class="new-link"><a href="https://www.upf.br/estude-na-upf"><span>estude na upf</span></a></li>
+            <li class="new-link"><a href="https://www.upf.br/unidades-academicas"><span>unidades acadêmicas</span></a></li>
+
+            <li><a href="https://www.upf.br/recursos/acessibilidade"><span class="acessibilidadeTemplate">Acessibilidade</span></a></li>
+            <li class="contraste rg"><button class="btn"><span>Alto Contraste</span></button></li>
+
+
+            <li class="dropdown">
+
+
+              <ul class="dropdown-menu" aria-labelledby="busca-drop">
+                <li class="input-group">
+                  <form id="formBuscaGeral" name="formBuscaGeral" method="get" action="/sufc/busca-geral">
+                    <label class="sr-only" for="chaveBuscaGeral">Digite aqui o que procura</label>
+                    <input type="text" class="form-control" id="chaveBuscaGeral" name="chaveBuscaGeral" placeholder="Digite aqui o que procura">
+                    <span class="input-group-btn">
+			    <button class="btn" type="submit" id="btn-buscaGeral">
+				    <span class="sr-only">botão busca</span>
+				    <span class="fa fa-search" aria-hidden="true"></span>
+			    </button>
+		    </span>
+                  </form>
+                </li>
+              </ul>                                </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" >
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="dropdown nav-secundaria-mobile especial open">
+          <a href="https://www.upf.br/">
+            <img class="brand" alt="Universidade de Passo Fundo" src="/Assets/img/logo-template.png">
+          </a>
+          <button id="menu-secundario" type="button" class="navbar-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <span class="sr-only">abre menu secundario</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="menu-header-mobile-sec">Menu</span>
+          <div class="dropdown-menu" aria-labelledby="menu-secundario">
+            <ul class="acessibilidade">
+              <li class="lf"><a href="/recursos/acessibilidade">Acessibilidade</a></li>
+              <li class="contraste rg"><a onclick="return false;" href="index.html">Alto Contraste</a></li>
+            </ul>
+            <ul class="menu-lista">
+              <li><a href="https://www.upf.br/estude-na-upf">estude na upf</a></li>
+              <li><a href="https://www.upf.br/unidades-academicas">unidades acadêmica</a></li>
+            </ul>
+            <div class="menu-right-footer">
+
+              <div class="input-group">
+                <form id="formBuscaGeral" name="formBuscaGeral" method="get" action="/sufc/busca-geral">
+                  <div class="input-group">
+                    <label class="sr-only" for="chaveBuscaGeral">Digite aqui o que procura</label>
+                    <input type="text" class="form-control" id="chaveBuscaGeral" name="chaveBuscaGeral" placeholder="Digite aqui o que procura">
+                    <span class="input-group-btn">
+                <button class="btn" type="submit">
+                    <span class="sr-only">botão busca</span>
+                    <span class="fa fa-search" aria-hidden="true"></span>
+                </button>
+            </span>
+                  </div>
+                </form>
+              </div>                                    <ul>
+
+            </ul>
+            </div>
+            <button class="btn fechar-btn" type="button">
+              <span class="sr-only">fechar menu secundário</span>
+              <span class="fa fa-times"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="nav-primaria desktop cor-template hover-escuro cor-claro">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="dropdown nav-primaria-mobile">
+            <button id="menu-primario" type="button" class="navbar-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">abre menu principal</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <span class="menu-header-mobile">Menu</span>
+
+            <div class="dropdown-menu" aria-labelledby="menu-primario">
+              <ul class="nav-mobile">
+
+                <li class="level-1 ">
+                  <a href="https://www.upf.br/sufc/" target="_self">FABSOFT</a>
+                </li>
+                <li class="level-1 dropdown submenu ">
+                  <a href="#services" target="_self">Servicos</a>
+                  <ul class="dropdown-menu">
+                    <li class="level-2 ">
+                      <a href="https://www.upf.br/sufc/apresentacao/comissao-organizadora" target="_self">Comissão organizadora</a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li class="level-1 dropdown submenu ">
+                  <a href="https://www.upf.br/sufc/programacao" target="_self">Programação</a>
+                  <ul class="dropdown-menu">
+                    <li class="level-2 ">
+                      <a href="https://www.upf.br/sufc/programacao/apresentacao-de-trabalhos" target="_self">Apresentação de Trabalhos</a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li class="level-1 ">
+                  <a href="https://www.upf.br/sufc/inscricoes" target="_self">Inscrições</a>
+                </li>
+                <li class="level-1 ">
+                  <a href="#about">Sobre A Fabrica</a>
+                </li>
+                <li class="level-1 ">
+                  <a href="https://www.upf.br/sufc/contato" target="_self">Contato</a>
+                </li>
+
+
+              </ul>
+              <button class="btn fechar-btn" type="button">
+                <span class="sr-only">fechar menu secundário</span>
+                <span class="fa fa-times"></span>
+              </button>
+            </div>
+          </div>
+          <ul class="navbar-right nav-desktop new-nav">
+
+            <li class="level-1 ">
+              <a href="#page-top">FABSOFT</a>
+            </li>
+            <li class="level-1 dropdown submenu ">
+              <a href="#services" target="_self">Servicos</a>
+              <ul class="dropdown-menu">
+                <li class="level-2 ">
+                  <a href="https://www.upf.br/sufc/apresentacao/comissao-organizadora" target="_self">Comissão organizadora</a>
+                </li>
+
+              </ul>
+            </li>
+            <li class="level-1 dropdown submenu ">
+              <a  href="#portfolio" >Infraestrutura</a>
+              <ul class="dropdown-menu">
+                <li class="level-2 ">
+                  <a href="https://www.upf.br/sufc/programacao/apresentacao-de-trabalhos" target="_self">Apresentação de Trabalhos</a>
+                </li>
+
+              </ul>
+            </li>
+            <li class="level-1 ">
+              <a href="#team">Equipe</a>
+            </li>
+            <li class="level-1 ">
+              <a href="#about">Sobre A Fabrica</a>
+            </li>
+            <li class="level-1 ">
+              <a href="#contact">Entre em Contato</a>
+            </li>
+
+
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+  <!-- Navigation -->
+<!--  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">-->
+<!--    <div class="container">-->
+<!--      <a class="navbar-brand js-scroll-trigger" href="#page-top">FABSOFT</a>-->
+<!--      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--        Menu-->
+<!--        <i class="fas fa-bars"></i>-->
+<!--      </button>-->
+<!--      <div class="collapse navbar-collapse" id="navbarResponsive">-->
+<!--        <ul class="navbar-nav text-uppercase ml-auto">-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link js-scroll-trigger" href="#services">Servicos</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link js-scroll-trigger" href="#portfolio">Infraestrutura</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link js-scroll-trigger" href="#about">Sobre a Fabrica</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link js-scroll-trigger" href="#team">Equipe</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link js-scroll-trigger" href="#contact">Entre em Contato</a>-->
+<!--          </li>-->
+<!--          </li>-->
+
+<!--        </ul>-->
+
+
+<!--      </div>-->
+<!--    </div>-->
+<!--  </nav>-->
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">Bem Vindo a</div>
+        <div class="intro-heading text-uppercase">Fabrica de Software</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Servicos</a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Sobre -->
+  <section class="page-section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Sobre a Fabrica</h2>
+          <h3 class="section-subheading text-muted">Fabrica Experimental de desenvolvimento de software</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+
+              <div class="timeline-panel">
+
+                <div class="timeline-heading">
+                  <h4 class="subheading">A Fabrica</h4>
+                </div>
+                
+                <div class="timeline-body">
+                  <p class="text-muted">Vinculado ao instituto de Ciências Exatas e Geociência - ICEG da UPF, a fábrica Experimental de Desenvolvimento de Software - FabsSoft, visa atender demandas por inovação e qualificação em produtos e serviços de software multiplataforma. </p>
+                </div>
+              </div>
+
+                <div class="timeline-body">
+                  <p class="text-muted">Constitui-se de um ambiente colaborativo para projetos de desenvolvimento de software que integram o ensino, a pesquisa, a extensão e o mercado, potencializando a inovação e a geração de novos negócios e a geração de novos negócios para o crescimento do setor de TI regional.</p>
+                </div>
+              </div>
+            
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Infraestrutura -->
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Infraestrutura</h2>
+          <h3 class="section-subheading text-muted">Nossa Infraestrutura.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="infra/geralInfra.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Escritorio</h4>
+            <p class="text-muted">Vista Geral</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="infra/servidores.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Servidor</h4>
+            <p class="text-muted">Servidores e Storage</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="infra/impressao3D.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Impressora 3D</h4>
+            <p class="text-muted">CL2 - PRO PLUS</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="infra/drones.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Drones</h4>
+            <p class="text-muted">Phantom 4</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="infra/iot.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>IOT</h4>
+            <p class="text-muted">Internet of Things</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="infra/realidadeVirtual.png" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Realidade Virtual</h4>
+            <p class="text-muted">Óculos de realidade virtual</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Servicos -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Servicos</h2>
+          <h3 class="section-subheading text-muted">Conheca nossos servicos</h3>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <h4 class="service-heading">Infraestrutura</h4>
+          <p class="text-muted">Infraestrutura para projetos de inovacao de software.</p>
+        </div>
+        <div class="col-md-4">
+          <h4 class="service-heading">Projetos Colaborativos</h4>
+          <p class="text-muted">Projetos colaborativos com empresas.</p>
+        </div>
+        <div class="col-md-4">
+          <h4 class="service-heading">Formacao e qualificacao profissional</h4>
+          <p class="text-muted">Formacao e qualificacao profissional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Equipe -->
+  <section  id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Equipe</h2>
+          <h3 class="section-subheading text-muted">Coordenador, professores e funcionários colaboradores.</h3>
+        </div>
+
+        <!-- Professores -->
+
+
+      </div>  
+      <div class="row">
+        <div class="col-sm-12">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="professores/jaqson.jpg" alt="">
+              <h4>Jaqson Dalbosco</h4>
+              <p class="text-muted">Coordenador do Projeto</p>
+            </div>
+        </div>
+      </div>    
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="professores/zanatta.jpg" alt="">
+            <h4>Alexandre Zanatta</h4>
+            <p class="text-muted">Professor Colaborador</p>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle vertical-img" src="professores/bernardo.jpg" alt="">
+            <h4>Bernardo Prates</h4>
+            <p class="text-muted">Funcionário Colaborador</p>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="professores/maciel.jpg" alt="">
+            <h4>Jose Maciel</h4>
+            <p class="text-muted">Professor Colaborador</p>
+          </div>
+        </div>
+      </div>
+
+    <div class="row">
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="professores/eder.JPG" alt="">
+            <h4>Eder Pazinatto</h4>
+            <p class="text-muted">Professor Colaborador</p>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="professores/jeangrei.jpg" alt="">
+            <h4>Jeangrei Veiga</h4>
+            <p class="text-muted">Professor Colaborador</p>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="professores/billy.jpg" alt="">
+            <h4>Victor Billy</h4>
+            <p class="text-muted">Professor Colaborador</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Fim Professores -->
+
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clientes -->
+
+  <section class="page-section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Parceiros</h2>
+          <h3 class="section-subheading text-muted">Conheca nossos parceiros</h3>
+        </div>
+      </div>
+    </div>  
+   
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <a href="http://elevor.com/">
+            <img class="img-fluid d-block mx-auto" src="logos/renove.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="http://splora.com.br/">
+            <img class="img-fluid d-block mx-auto" src="logos/splora.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="http://metasig.com.br/">
+            <img class="img-fluid d-block mx-auto" src="logos/metasig.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="https://www.agrofy.com.br/stara?gclid=EAIaIQobChMIx5Tk_On25QIVioiRCh057gTAEAAYASAAEgJbn_D_BwE">
+            <img class="img-fluid d-block mx-auto" src="teste/logo-stara.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="logos/optim.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="teste/logo-jmkids.webp" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="logos/southbox.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="logos/visionnit.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="teste/logo-inovamate.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="teste/logo-inel.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <img class="img-fluid d-block mx-auto" src="teste/" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </section> 
+
+  <!-- Contato -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Entre em Contato</h2>
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+
+          <p>
+              BR 285 - KM 292,7 - Campus Sao Jose
+          </p>
+          <p>
+            Sala 07, Modulo III, UPF Parque
+          </p>
+          <p>
+            fabsoft@upf.br 
+          </p>
+          <p>
+            (54) 3316 - 8345 - Ramal 5804
+          </p>
+
+        </div>
+
+
+        <div class="col-sm-4">
+          <div class="team-member">
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="team-member">
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+
+
+          
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+<footer class="footer">
+  <div class="footer-superior">
+    <div class="container">
+      <div class="row">
+        <div class="col-llg-7 col-lg-6">
+          <div class="row">
+            <div class="col-sm-4">
+              <a href="http://fupf.upf.br/" target="_blank"><p class="header">FUNDAÇÃO UPF</p></a>
+            </div>
+            <div class="col-sm-4">
+              <a href="http://integrado.upf.br/" target="_blank"><p class="header">INTEGRADO UPF</p></a>
+            </div>
+            <div class="col-sm-4">
+              <a href="http://upfidiomas.upf.br/" target="_blank"><p class="header">UPF IDIOMAS</p></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <a href="https://www.upf.br/calendario-academico" target="_self"><p class="content">CALENDÁRIO ACADÊMICO</p></a>
+            </div>
+            <div class="col-sm-4">
+              <a href="https://www.upf.br/editais" target="_self"><p class="content">EDITAIS</p></a>
+            </div>
+            <div class="col-sm-4">
+              <a href="https://www.upf.br/trabalhe-com-a-upf" target="_self"><p class="content">TRABALHE COM A UPF</p></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-llg-5 col-lg-6">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="link-box">
+                <a href="http://upf.br/ouvidoria" class="btn btn-footer" role="button">
+                  <span class="fa fa-comments-o" aria-hidden="true"></span>
+                  ouvidoria
+                </a>
+
+
+
+                <a href="javascript:void(window.open('http://docs.upf.br/aviso.php', 'ATENDIMENTO', 'width=600, height=600'))" class="btn btn-footer" role="button">
+                  <span class="fa fa-commenting-o" aria-hidden="true"></span>
+                  atendimento online
+                </a>
+
+                <a href="/contato" class="btn btn-footer" role="button">
+                  <span class="fa fa-phone" aria-hidden="true"></span>
+                  contato
+                </a>
+                <a href="#page-top" class="btn btn-footer" role="button">
+
+                  Voltar ao Topo</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="link-info-box">
+                <a href="tel: 054 33167000" role="button" class="phone">
+                  <span class="fa fa-phone" aria-hidden="true"></span>
+                  (54) 3316.7000
+                </a>
+                <a href="mailto:informacoes@upf.br" role="button">
+                  <span class="fa fa-envelope" aria-hidden="true"></span>
+                  informacoes@upf.br
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-inferior">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-5">
+          <p class="header">Conhecimento é a nossa natureza.</p>
+          <p class="content">
+            ROD BR 285, KM 292,7 - Campus I | São José | Passo Fundo/RS | CEP: 99052-900
+
+          </p>
+        </div>
+        <div class="col-md-6 col-sm-7">
+          <div class="social-box">
+            <a href="https://www.facebook.com/universidadedepassofundo" target="_blank">
+              <img src="https://www.upf.br/Assets/img/facebook.jpg" alt="facebook">
+            </a>
+            <a href="https://twitter.com/universidadeupf" target="_blank">
+              <img src="https://www.upf.br/Assets/img/twitter.jpg" alt="twitter">
+            </a>
+            <a href="https://www.instagram.com/universidadeupf/" target="_blank">
+              <img src="https://www.upf.br/Assets/img/instagram.jpg" alt="instagram">
+            </a>
+            <a href="https://www.linkedin.com/edu/school?id=10612" target="_blank">
+              <img src="https://www.upf.br/Assets/img/linkedl.jpg" alt="linkedl">
+            </a>
+            <a href="https://www.youtube.com/UPFoficial" target="_blank">
+              <img src="https://www.upf.br/Assets/img/youtube.png" alt="Youtube">
+            </a>
+
+            <a href="https://www.flickr.com/universidadedepassofundo/" target="_blank">
+              <img src="https://www.upf.br/Assets/img/flickr.png" alt="Flickr">
+            </a>
+
+            <a href="http://www.axysweb.com.br" target="_blank">
+              <img src="https://www.upf.br/Assets/img/axys.png" class="axys" alt="Axysweb">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Portfolio Modals -->
+
+  <!-- Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Escritorio</h2>
+                <p class="item-intro text-muted">Infraestrutura</p>
+                <img class="img-fluid d-block mx-auto" src="teste/infra1.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <img class="img-fluid d-block mx-auto" src="teste/infra2.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <img class="img-fluid d-block mx-auto" src="teste/infra3.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <img class="img-fluid d-block mx-auto" src="teste/infra4.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <img class="img-fluid d-block mx-auto" src="teste/infra5.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <img class="img-fluid d-block mx-auto" src="teste/infra6.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Explore</li>
+                  <li>Category: Graphic Design</li>
+                </ul>
+                
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Servidor e Storage</h2>
+                <p class="item-intro text-muted">Infraestrutura</p>
+                <img class="img-fluid d-block mx-auto" src="infra/servidor.png" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <img class="img-fluid d-block mx-auto" src="infra/storage.png" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Explore</li>
+                  <li>Category: Graphic Design</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Impressora 3D</h2>
+                <p class="item-intro text-muted">Infraestrutura</p>
+                <img class="img-fluid d-block mx-auto" src="infra/cl2pro.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Finish</li>
+                  <li>Category: Identity</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Drones</h2>
+                <p class="item-intro text-muted">Infraestrutura</p>
+                <img class="img-fluid d-block mx-auto" src="infra/phantom4.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Lines</li>
+                  <li>Category: Branding</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Internet of Things</h2>
+                <p class="item-intro text-muted">Infraestrutura</p>
+                <img class="img-fluid d-block mx-auto" src="infra/RFID.png" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <img class="img-fluid d-block mx-auto" src="infra/beacon.png" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Southwest</li>
+                  <li>Category: Website Design</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Oculos de Realidade Virtual</h2>
+                <p class="item-intro text-muted">Infraestrutura</p>
+                <img class="img-fluid d-block mx-auto" src="infra/oculos1.png" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <img class="img-fluid d-block mx-auto" src="infra/oculos2.png" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <img class="img-fluid d-block mx-auto" src="infra/oculos3.png" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <img class="img-fluid d-block mx-auto" src="infra/oculos4.png" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Window</li>
+                  <li>Category: Photography</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Bootstrap core JavaScript -->
+<!--  <script src="vendor/jquery/jquery.min.js"></script>-->
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-1.12.3.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script type="text/javascript" src="https://www.upf.br/Assets/js/main.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery.mobile.custom-1.4.5.min.js"></script>
+
+<script type="text/javascript" src="https://www.upf.br/Assets/js/SiteTemplate1Index.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery.mobile.custom-1.4.5.min.js"
+<script  type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery.mobile.custom-1.4.5.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+<!--  <script src="js/agency.min.js"></script>-->
+
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-1.12.3.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/bootstrap-3.3.6.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/pt-BR/global.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/pt-BR/globalMask.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-globalize/globalize.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-globalize/cultures/globalize.culture.pt-BR.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-validation/dist/additional-methods.min.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-toastr/toastr.min.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery.blockui.min.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery.mobile.custom-1.4.5.min.js"></script>
+<script type="text/javascript" async="" src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/4c5c42bd-078a-4d1b-ab75-ec3407874568-loader.js"></script>
+<script type="text/javascript" src="https://www.upf.br/WebResource.axd?d=SQIs7WJ1Tn0Mbu3X15u67v1LC4e3Ly_7Eg_13xacrIQdVwfwknDe_Nl2E0_D4y-6bJ18II6xmmB6sjo8ouE4IMBTdoFVfde116TLdCsM7w5NqLa6JLI1_10TQH51bVNXU_hlMG6q9-YuLdU4Xv4i_9cYxRCZzpaf6O-jrl_BPE01&amp;t=636683074774797627"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/bootbox/bootbox.min.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-file-upload/js/vendor/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-file-upload/js/vendor/load-image.min.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-file-upload/js/vendor/canvas-to-blob.min.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-file-upload/js/jquery.iframe-transport.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-file-upload/js/jquery.fileupload.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-file-upload/js/jquery.fileupload-process.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-file-upload/js/jquery.fileupload-image.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-file-upload/js/jquery.fileupload-audio.js"></script>
+
+
+
+</body>
+
+</html>
